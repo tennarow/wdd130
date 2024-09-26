@@ -10,13 +10,35 @@ nav a {
 h1 {
     color:steelblue;
 }
-img {
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #4682b4;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 0;
+    font-size: larger;
+}
+main {
+    max-width: 840px;
+}
+aside {
+    width: 20rem;
+    margin: auto;
+    border: 5px solid #fff;
+    padding: 1rem;
+    background-color: #4682b4;
+    color: #fff;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #fff;
+    text-align: center;
 }
