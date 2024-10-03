@@ -1,21 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --heading-background-color: #4682b4;
+    --heading-text-color: #808080 
+    --heading-font: 'Montserrat', Helvetica, san-serif;
+    --padding: 1rem;
+    --border: 1px solid #0000001a;
+
+}
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    background-color: var(--heading-background-color);
+    padding: var(--padding);
 }
 nav a {
-    color: white;
+    color: var(--heading-text-color);
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 h1 {
-    color:steelblue;
+    color: var(--heading-background-color);
 }
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid #4682b4;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    border: var(--border);
+    padding: var(--padding);
+    box-shadow: 0 0 30px #808080;
+    float: right;
 }
 p {
     padding: 0;
@@ -26,12 +40,13 @@ main {
 }
 aside {
     width: 20rem;
-    margin: auto;
-    border: 5px solid #fff;
-    padding: 1rem;
-    background-color: #4682b4;
-    color: #fff;
     text-align: center;
+    position: relative;
+}
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
 }
 img {
     width: 200px;
@@ -42,3 +57,11 @@ footer {
     border-top: 1px solid #fff;
     text-align: center;
 }
+/* Class Selectors */
+.box {
+    margin: 1 rem;
+    border: 1 px solid rgba(red, green, blue, alpha);
+    padding: 1 rem;
+    background-color: rgb(251, 190, 6);
+    color: #000000f7;
+ }
