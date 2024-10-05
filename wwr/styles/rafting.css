@@ -6,23 +6,42 @@
     --font-family: 'Merriweather', serif;
     --font-heading: 'Libre Baskerville', serif;
 }
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
+main {
+    max-width: 840px;
+    margin: auto; 
+    padding: 20px;
+}
 nav {
     background-color: var(--secondary-color);
     font-family: var(--font-family);
     font-size: 16px;
-    color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
 }
 h1 {
     color: var(--primary-color);
     position: absolute;
+    padding: 2rem;
 }
 article {
     position: absolute;
+    text-align: center;
 }
 article img {
     float: right;
