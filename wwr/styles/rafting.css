@@ -7,9 +7,9 @@
     --font-heading: 'Libre Baskerville', serif;
 }
 header { 
-    margin: 1rem auto;
+    margin: 1rem auto 50px;
     display: grid;
-    grid-template-columns;: 90px 1fr 2fr
+    grid-template-columns: 90px 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
 	max-width: 1000px;
@@ -51,13 +51,16 @@ body {
     padding: 0;
 }
 .hero {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800%;
+    margin: 50px auto;
+    padding-top: 40px;
     position: relative;
 }
 .hero img {
-    width: auto;
+    display:block;
+    width: 100%;
     height: auto;
     float: right;
 }
@@ -65,18 +68,25 @@ main {
     max-width: 840px;
     margin: auto; 
     padding: 20px;
+    }
 h1 {
+    position:absolute;
     color: var(--primary-color);
-    position: absolute;
     padding: 2rem;
+    text-align: center;
+    margin: 0;
 }
 article {
     position: absolute;
-    text-align: center;
+    margin-top: 20px;
+    bottom: 50px;
+    left: 400px;
+    width: 100%;
+    background-color: #FAFA20;
 }
-article img {
+.hero article img {
     float: right;
-    position: relative;
+    width: 50px;
 }
 .grid {
     grid-template-columns: 2fr 200px 2fr;
@@ -84,14 +94,30 @@ article img {
 .grid img {
     grid-column: 2;
 }
+h2 {
+    text-align: center;
+}
 .adventures {
     display: flex;
     justify-content: space-between;
 }
 .adventures img {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
-.sociallinks {
-    text-decoration: none;
+.sociallinks img {
+    width: 24px;
+    height: 24px;
+}
+footer {
+    display: flex;
+    padding: 20px;
+    margin-top: 15px;
+    border-top: 1px solid #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.links {
+
 }
