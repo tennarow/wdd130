@@ -53,7 +53,7 @@ body {
 .hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 800%;
+    max-width: 1200px;
     margin: 50px auto;
     padding-top: 40px;
     position: relative;
@@ -117,7 +117,4 @@ footer {
     text-align: center;
     align-items: center;
     justify-content: space-between;
-}
-.links {
-
 }
