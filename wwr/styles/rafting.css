@@ -25,7 +25,7 @@ header img {
     display: flex;
     list-style: none;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 nav {
     color: var(--secondary-color);
@@ -48,7 +48,6 @@ body {
 }
 .hero {
     max-width: 800px;
-    margin: 30px;
     position: relative;
 }
 .hero img {
