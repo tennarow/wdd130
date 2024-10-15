@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWD 130 | HTML Form - User Poll </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1> HTML & CSS | Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="html">What does the acronym HTML stand for?</label>
+                <input type="text" id="q1" name="q1">
+                <label for="css">What is the purpose of using CSS in Web Development?</label>
+                <textarea id="q2" name="q2" rows="4"></textarea>
+                <label for="comment">Which option shows the way to include a comment in CSS?</label>
+                <select id="q3" name="q3">
+                    <option value="wrong1">!-- This is a comment --</option>
+                    <option value="right">/* This is a comment */</option>
+                    <option value="wrong2">[: This is a comment :]</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="integer">What is the bottom margin if the declaration is margin: 10px 5px 15px?</label>
+                <input type="number" id="q4" name="q4">
+            </fieldset>
+            <button class="favorite" type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>
+        <p>©️2024 | HTML & CSS - Quiz | Tenna King</p>
+    </footer>
+</body>
+
+</html>
