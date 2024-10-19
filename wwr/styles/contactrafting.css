@@ -124,7 +124,7 @@ input, label, button, select, textarea {
 button:hover {
     background-color: var(--accent1-color);
 }  
-.social-links img {
+.sociallinks img {
     width: 24px;
     height: 24px;
 }
