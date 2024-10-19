@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300;400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/contactrafting.css">
 </head>
 
 <body>
@@ -29,40 +29,73 @@
     </header>
     <main>
         <h1>Get in Touch</h1>
-            <p>We are excited to hear from you and help you plan your experience with the White Water Rafting Club. It is an unforgettable experience that you will not want to miss in the gorgeous canyons of Southern Utah.</p>
-            <section>
-                <div class="contact">
-                    <h2>Contact Information</h2>
-                    <p>Address: West Deer Creek Road, Marysvale, UT 84750</p>
+        <p>We are excited to hear from you and help you plan your experience with the White Water Rafting Club. It is an
+            unforgettable experience that you will not want to miss in the gorgeous canyons of Southern Utah.</p>
+        <section>
+            <div class="contact">
+                <h2>Contact Information</h2>
+                <div class="info">
+                    <p>Address: 2540 West Deer Creek Road, Marysvale, UT 84750</p>
                     <p>Phone: 381-772-9000</p>
                     <p>Email: raftingclub@whitewater.com</p>
                 </div>
-            </section>
-            <article>
-                <h2>Our Employees</h2>
-                <img src="images/employee1.webp" alt="proud employee">
-                <p>We pride ourselves in our fantastic crew, whose goal is to create enjoyable experiences for all.</p>
-                <img src="images/employee3.webp" alt="proud employee">
-                <p>The are skilled in and very passionate about White Water Rafting.</p>
-                <img src="images/employe2.webp" alt="proud employee">
-                <p>Each raft is secured with one of our finest team members to ensure safety and fun.</p>
-            </article>
-        </div>
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventures">
-                <img src="images/groupraft.webp" alt="Big Group on Raft">
-                <img src="images/canyonraft.webp" alt="canyon with rafters">
-                <img src="images/rafting58_600.jpg" alt="blue river green scenery">
-                <img src="images/closeup.webp" alt="closeup of the rafter">
-                <img src="images/side-canyon-sq.jpg" alt="side canyon">
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4375.003537718607!2d-112.26355009980541!3d38.50337797534258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1729356352256!5m2!1sen!2sus"
+                        width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                </div>
             </div>
         </section>
+        <h3>Our Employees</h3>
+        <div class="employees">
+            <figure>
+                <img src="images/josiecoleman.webp" alt="proud employee">
+                <figcaption> Josie Coleman</figcaption>
+            </figure>
+            <figure>
+                <img src="images/marcusnelson.webp" alt="proud employee">
+                <figcaption>Marcus Nelson</figcaption>
+            </figure>
+            <figure>
+                <img src="images/clarajones.webp" alt="proud employee">
+                <figcaption>Clara Jones</figcaption>
+            </figure>
+        </div>
+        <form>
+            <fieldset>
+                <legend> Send us a message</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+                <p>Please select one:</p>
+
+                <label>
+                    <input type="radio" name="option" value="general inquiry"> General Inquiry
+                </label><br>
+                <label>
+                    <input type="radio" name="option" value="reservation question"> Reservation Question
+                </label><br>
+                <label>
+                    <input type="radio" name="option" value="website suggestion"> Website Suggestion
+                </label><br>
+                <textarea id="feedback" name="feedback" rows="4"
+                    placeholder="Any other message for us send here."></textarea>
+                <label for="subscribe">Please subscribe me to the monthly newsletter </label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+            </fieldset>
+            <button class="favorite" type="submit">Submit Poll</button>
+        </form>
     </main>
     <footer>
-        <p>©️2024 *The White Water Rafting Club* Tenna King </p>
+         <p>©️ 2024 *The White Water Rafting Club* Tenna King </p>
         <div class="links">
-            <nav class="sociallinks">
+            <nav class="social-links">
                 <a href="https://www.facebook.com">
                     <img src="images/2018_social_media_popular_app_logo_facebook-128.webp" alt="Facebook">
                 </a>
@@ -73,7 +106,13 @@
                     <img src="images/instagram-square-social-media-128.webp" alt="Instagram">
                 </a>
             </nav>
+            <nav class="wireframe-link">
+                <ul>
+                    <li><a href="https://app.moqups.com/5dff753BseKiQW42ThbTPExL4Wvj4Q4n/view/page/ad64222d5">Wireframe Contact Us</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
 </body>
+
 </html>

@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #240C60;
+    --secondary-color: #0490DB;
+    --accent1-color: #f57a1a;
+    --accent2-color: #FAFA20; 
+    --font-family: 'Merriweather', serif;
+    --font-heading: 'Libre Baskerville', serif;
+}
+header { 
+    margin: 1rem auto 50px;
+    display: grid;
+    grid-template-columns: 90px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+	max-width: 900px;
+}
+header img {
+    margin: 0 0.25rem 0 1rem;
+	width: 140px;
+	height: auto;
+    grid-column: 1;
+    place-self: center;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content: space-evenly;
+}
+nav {
+    color: var(--secondary-color);
+    font-size: 25px;
+    padding: 1rem;
+    text-align: right;
+    grid-column: 2/ 4;
+}
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 20px;
+	text-decoration: none;
+}
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.contact {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-column: 1;
+    padding: 1rem;
+    font-size: larger;
+}
+.info {
+    grid-column: 1;
+    align-content: center;
+    justify-content: center;
+}
+.map {
+    grid-column: 2;
+    align-content: center;
+    justify-content: center;
+}
+.employees {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+main {
+    max-width: 840px;
+    margin: auto; 
+    padding: 20px;
+    }
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 25px;
+}
+h2 {
+    color: var(--primary-color);
+    align-self: center;
+    justify-self: center;
+    padding-top: 1rem;
+    grid-column: 1 /3;
+    font-size: 25px;
+}
+h3 {
+    font-size: 25px;
+    color: var(--primary-color);
+    text-align: center;
+}
+figcaption {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+form {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color:#eee;
+    border:1px solid rgba( 0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba( 0, 0, 0, 0.2);
+}
+fieldset legend {
+    color: var(--primary-color);
+    font-size: 1.3em;
+    padding: 0.5rem;
+}
+input, label, button, select, textarea {
+    width: auto;
+    font-family: 'Libre Baskerville',serif;
+}
+button:hover {
+    background-color: var(--accent1-color);
+}  
+.social-links img {
+    width: 24px;
+    height: 24px;
+}
+footer {
+    display: flex;
+    padding: 40px;
+    color: var(--primary-color);
+    margin-top: 15px;
+    border-top: 1px solid #fff;
+    justify-content: space-evenly;
+}
