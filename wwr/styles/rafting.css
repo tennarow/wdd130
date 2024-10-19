@@ -104,7 +104,8 @@ h2 {
 }
 .adventures {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    max width: 800px;
 }
 .adventures img {
     width: 150px;
