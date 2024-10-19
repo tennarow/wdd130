@@ -92,7 +92,7 @@ h3 {
     text-align: center;
 }
 figcaption {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: #fff;
 }
 form {
