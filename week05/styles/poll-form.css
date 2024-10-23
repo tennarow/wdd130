@@ -90,3 +90,41 @@ footer {
     grid-template-columns: 1fr 2fr;
     margin: 1rem;
 }
+.everyone {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 1rem;
+    margin: auto;
+}
+.pic1 {
+    grid-area: 1/1;
+    justify-self: center;
+    align-self: center;
+}
+.p1 {
+    grid-area: 1/2;
+    justify-self: center;
+    align-self: center;
+}
+.pic2 {
+    grid-area: 2/2;
+    justify-self: center;
+    align-self: center;
+}
+.p2 {
+    grid-area: 2/1;
+    justify-self: center;
+    align-self: center;
+}
+.pic3 {
+    grid-area: 3/1;
+    justify-self: center;
+    align-self: center;
+}
+.p3 {
+    grid-area: 3/2;
+    justify-self: center;
+    align-self: center;
+}

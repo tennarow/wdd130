@@ -1,8 +1,8 @@
 :root {
     --primary-color: #240C60;
     --secondary-color: #0490DB;
-    --accent1-color: #f57a1a;
-    --accent2-color: #FAFA20;
+    --accent1-color: #f28b3c;
+    --accent2-color: #ffe677;
     --font-family: 'Merriweather', serif;
     --font-heading: 'Libre Baskerville', serif;
 }
@@ -13,9 +13,11 @@ header {
     grid-template-columns: 90px 1fr 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
+    background-color: var(--accent2-color);
+}
+.logo-links {
     max-width: 900px;
 }
-
 header img {
     margin: 0 0.25rem 0 1rem;
     width: 140px;
@@ -106,7 +108,7 @@ article {
     opacity: 0.75;
     width: auto;
     height: 150px;
-    background-color: #fae420;
+    background-color: var(--accent2-color);
 }
 
 .hero article img {
@@ -199,10 +201,19 @@ button:hover {
     height: 24px;
 }
 footer {
-    display: flex;
+    display: grid;
     padding: 40px;
     color: var(--primary-color);
     margin-top: 15px;
     border-top: 1px solid #fff;
-    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    background-color: var(--accent1-color);
+}
+.social-links {
+    grid-column: 3;
+    display: flex;
+}
+.wireframe-link {
+    grid-column: 2;
 }
