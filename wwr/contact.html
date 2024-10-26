@@ -18,13 +18,11 @@
 <body>
     <header>
         <img src="images/rafinglogo.png" alt="Company Logo" width="200">
-        <nav>
-            <ul class="navigation">
-                <li><a href="index.html">Index</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav class="navigation">
+                <a href="index.html">Index</a>
+                <a href="about.html">About</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
         </nav>
     </header>
     <main>
@@ -74,37 +72,41 @@
 
                 <label>
                     <input type="radio" name="option" value="general inquiry"> General Inquiry
-                </label><br>
+                </label>
                 <label>
                     <input type="radio" name="option" value="reservation question"> Reservation Question
-                </label><br>
+                </label>
                 <label>
                     <input type="radio" name="option" value="website suggestion"> Website Suggestion
-                </label><br>
+                </label>
+                <label for="textarea">Feedback:</label>
                 <textarea id="feedback" name="feedback" rows="4"
                     placeholder="Any other message for us send here."></textarea>
-                <input type="checkbox" id="subscribe" name="subscribe">
-                <label for="subscribe">Please subscribe me to the monthly newsletter </label>
+                <div class="checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter </label>
+                </div>
             </fieldset>
             <button class="favorite" type="submit">Send message!</button>
         </form>
     </main>
     <footer>
         <p> &copy; 2024 *The White Water Rafting Club* Tenna King </p>
-                <nav class="wireframe-link">
-                    <a href="https://app.moqups.com/5dff753BseKiQW42ThbTPExL4Wvj4Q4n/view/page/ad64222d5">Wireframe Contact Us </a>
-                </nav>
-                <nav class="sociallinks">
-                    <a href="https://www.facebook.com" target="blank">
-                        <img src="images/2018_social_media_popular_app_logo_facebook-128.webp" alt="Facebook">
-                    </a>
-                    <a href="http://twitter.com" target="blank">
-                        <img src="images/1_Twitter4_colored_svg-128.webp" alt="Twitter">
-                    </a>
-                    <a href="https://instagram.com" target="blank">
-                        <img src="images/instagram-square-social-media-128.webp" alt="Instagram">
-                    </a>
-                </nav>
+        <nav class="wireframe-link">
+            <a href="https://app.moqups.com/5dff753BseKiQW42ThbTPExL4Wvj4Q4n/view/page/ad64222d5">Wireframe Contact Us
+            </a>
+        </nav>
+        <nav class="sociallinks">
+            <a href="https://www.facebook.com" target="blank">
+                <img src="images/2018_social_media_popular_app_logo_facebook-128.webp" alt="Facebook" width="30">
+            </a>
+            <a href="http://twitter.com" target="blank">
+                <img src="images/1_Twitter4_colored_svg-128.webp" alt="Twitter" width="30">
+            </a>
+            <a href="https://instagram.com" target="blank">
+                <img src="images/instagram-square-social-media-128.webp" alt="Instagram" width="30">
+            </a>
+        </nav>
     </footer>
 </body>
 
